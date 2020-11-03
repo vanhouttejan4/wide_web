@@ -1,0 +1,346 @@
+body {
+    background-color: #282828;
+}
+
+.while-text {
+    color: white;
+}
+
+.topnav {
+    overflow: hidden;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    align-items: center;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Change the color of links on hover */
+
+
+/* Add a color to the active/current link */
+
+
+/* Right-aligned section inside the top navigation */
+
+.topnav-right {
+    float: right;
+    margin-right: 10px;
+}
+
+.search {
+    margin-top: 6px;
+    width: 42%;
+    height: 35px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    appearance: none;
+}
+
+.main-prof {
+    background-color: aliceblue;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.search-click {
+    margin-left: -70px;
+    margin-top: 7px;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    color: #282828;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.notification {
+    font-size: 30px;
+    color: white;
+    margin-left: 2%;
+}
+
+.mobile {
+    display: none;
+    height: 100px;
+    background-color: #282828;
+}
+
+.content {
+    padding: 10px;
+}
+
+div.scrollmenu {
+    background-color: #282828;
+    overflow: auto;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    border-radius: 10px;
+    display: inline-block;
+    color: #2c2c2c;
+    text-align: center;
+    margin-left: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.type-1 {
+    background-image: linear-gradient(to right, #94b0bb, #aac8d5);
+}
+
+.type-2 {
+    background-image: linear-gradient(to right, #becbb9, #c2cfbd);
+}
+
+.type-3 {
+    background-image: linear-gradient(to right, #e7cda6, #f1dcbb);
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.product-view {
+    margin-top: 10px;
+    height: 330px;
+    width: 100%;
+    color: #ebebeb;
+}
+
+.hr-line {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #2c2c2c;
+}
+
+.view-all {
+    margin-top: 8px;
+    height: 40px;
+    width: 130px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.text-alig {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.product {
+    background-color: #383838;
+    height: 270px;
+    width: 200px;
+    border-radius: 20px;
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.product-2 {
+    background-color: #383838;
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    display: inline-block;
+    color: #2c2c2c;
+    text-align: center;
+    margin-left: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.prod-img-1 {
+    width: 200px;
+    height: 140px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+ul.product-inf {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -25px;
+}
+
+.info {
+    font-style: italic;
+    font-size: 15px;
+    color: rgb(184, 184, 184);
+}
+
+.overflow {
+    overflow: auto;
+}
+
+h5.price {
+    margin-top: -15px;
+    font-style: italic;
+}
+
+.circle-button-1 {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+    color: #ebebeb;
+    background-color: #f07032;
+    float: right;
+    margin-top: -50px;
+    margin-right: 70px;
+}
+
+.circle-button-2 {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    color: #ebebeb;
+    border-radius: 50%;
+    background-color: #f07032;
+    float: right;
+    margin-top: -50px;
+    margin-right: 15px;
+}
+
+.star {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: gold;
+}
+
+@media only screen and (max-width: 800px) {
+    .name {
+        display: none;
+    }
+    .search-click {
+        width: 80px;
+        margin-left: -80px;
+    }
+    .notification {
+        font-size: 30px;
+        color: white;
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile {
+        display: block;
+    }
+    .abc {
+        display: none;
+    }
+    .main-prof {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .search-click {
+        display: none;
+    }
+    .notification {
+        float: right;
+        margin-right: 10px;
+        margin-top: 8px;
+    }
+    .mobile div {
+        display: block;
+        height: 60px;
+        display: flex;
+    }
+    body {
+        background-color: #282828;
+    }
+    .mobile-search {
+        width: 90%;
+        height: 40px;
+        border-radius: 10px;
+        padding-left: 10px;
+        color: #ebebeb;
+        background-color: #3d3d3d;
+    }
+    .square {
+        width: 50px;
+        height: 50px;
+    }
+    .filter-mob {
+        color: #ebebeb;
+        font-size: 30px;
+    }
+    .search-click-2 {
+        margin-left: -70px;
+        margin-top: 9px;
+        height: 40px;
+        width: 60px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    .search-click-3 {
+        height: 40px;
+        margin-left: 30px;
+        border: 0px;
+        border-radius: 10px;
+        background-color: #f07032;
+        width: 50px;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .mobile div.bottom-nav {
+        background: #3d3d3d;
+        overflow: hidden;
+        position: fixed;
+        display: flex;
+        align-content: space-between;
+        color: #ebebeb;
+        bottom: 0;
+        width: 100%;
+    }
+    .mobile div.bottom-nav a {
+        font-size: 25px;
+    }
+    .mobile div.bottom-nav a:hover {
+        color: #f07032;
+    }
+    /* Style the links inside the navigation bar */
+    /* Change the color of links on hover */
+}
